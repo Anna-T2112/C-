@@ -23,7 +23,7 @@ int CountEven(int[] myArray2)
 {
     int result = 0;
     for (int i = 0; i < myArray2.Length; i++)
-        if (i % 2 == 0)
+        if (i % 2 != 0)
             result += myArray2[i];
 
     return result;
